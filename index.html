@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>relocate4ua — переїзд та легалізація в Іспанії</title>
+<meta name="description" content="relocate4ua — ваш партнер у переїзді та легалізації в Іспанії. ВНЖ, Digital Nomad, модифікація тимчасового захисту, autónomo, документи й переклади. Допомагаємо українцям легально жити та працювати в Іспанії.">
+<link rel="icon" href='data:image/svg+xml,<svg viewBox="0 0 120 104" xmlns="http://www.w3.org/2000/svg"><path d="M24 96V54L62 22l30 26" fill="none" stroke="%2322307E" stroke-width="12" stroke-linecap="square"/><rect x="46" y="64" width="14" height="32" fill="%2322307E"/><path d="M12 99q48-4 84-48" fill="none" stroke="%23F6BE2C" stroke-width="12" stroke-linecap="round"/><path d="M83 36l32-14-7 35z" fill="%23F6BE2C"/></svg>'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#22307E;
+  --navy-dark:#1A2560;
+  --navy-soft:#32409A;
+  --yellow:#F6BE2C;
+  --yellow-deep:#E3A908;
+  --yellow-soft:#FDF3D7;
+  --bg:#ffffff;
+  --bg-soft:#F6F7FC;
+  --bg-tint:#EDF0FA;
+  --text:#2B3356;
+  --text-soft:#5F668A;
+  --line:#E4E7F3;
+  --radius:18px;
+  --shadow:0 10px 32px rgba(34,48,126,.09);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Nunito',system-ui,-apple-system,sans-serif;color:var(--text);background:var(--bg);line-height:1.65;font-size:16.5px}
+img{max-width:100%}
+a{color:var(--navy);text-decoration:none}
+.container{max-width:1160px;margin:0 auto;padding:0 22px}
+section{padding:76px 0}
+h1,h2,h3{color:var(--navy);line-height:1.2;font-weight:900}
+h2{font-size:clamp(27px,3.4vw,40px);margin-bottom:14px}
+.section-lead{max-width:780px;color:var(--text-soft);font-size:17px;margin-bottom:42px}
+.eyebrow{display:inline-block;font-size:12.5px;font-weight:800;letter-spacing:.13em;text-transform:uppercase;color:var(--navy);background:var(--yellow-soft);border:1px solid #F3DFA2;padding:6px 15px;border-radius:100px;margin-bottom:16px}
+.btn{display:inline-block;font-family:inherit;font-weight:800;font-size:16px;border-radius:14px;padding:16px 32px;cursor:pointer;border:2px solid transparent;transition:.2s;text-align:center}
+.btn-primary{background:var(--yellow);color:var(--navy-dark);box-shadow:0 6px 20px rgba(246,190,44,.35)}
+.btn-primary:hover{background:var(--yellow-deep);color:#fff}
+.btn-outline{background:transparent;color:var(--navy);border-color:var(--navy)}
+.btn-outline:hover{background:var(--navy);color:#fff}
+.btn-ghost-white{background:transparent;color:#fff;border-color:rgba(255,255,255,.5)}
+.btn-ghost-white:hover{background:#fff;color:var(--navy)}
+.ico{width:21px;height:21px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+
+/* ---------- NAV ---------- */
+.nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:74px;gap:14px}
+.brand{display:flex;align-items:center;gap:10px}
+.brand svg{height:42px;width:auto;flex-shrink:0}
+.brand-name{font-weight:900;font-size:21px;letter-spacing:-.01em;line-height:1}
+.brand-name .w1{color:var(--navy)}
+.brand-name .n4{color:var(--navy)}
+.brand-name .w2{color:var(--yellow-deep)}
+.nav-links{display:flex;gap:22px;align-items:center}
+.nav-links a{color:var(--navy);font-weight:700;font-size:14px}
+.nav-links a:hover{color:var(--yellow-deep)}
+.nav .btn{padding:11px 20px;font-size:14px}
+.burger{display:none;background:none;border:none;cursor:pointer;padding:6px}
+.burger span{display:block;width:24px;height:3px;background:var(--navy);margin:5px 0;border-radius:2px}
+@media(max-width:1000px){
+  .nav-links{display:none;position:absolute;top:74px;left:0;right:0;background:#fff;flex-direction:column;padding:20px;border-bottom:1px solid var(--line);gap:16px}
+  .nav-links.open{display:flex}
+  .burger{display:block}
+}
+@media(max-width:480px){
+  .container{padding:0 16px}
+  .nav-inner{gap:8px}
+  .brand svg{height:34px}
+  .brand-name{font-size:17px}
+  .nav .btn{padding:9px 13px;font-size:12.5px}
+}
+
+/* ---------- HERO ---------- */
+.hero{background:linear-gradient(140deg,var(--navy-dark) 0%,var(--navy) 60%,var(--navy-soft) 100%);color:#fff;padding:96px 0 88px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-160px;top:-140px;width:580px;height:580px;border-radius:50%;background:radial-gradient(circle,rgba(246,190,44,.25),transparent 65%)}
+.hero::before{content:"";position:absolute;left:-200px;bottom:-260px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.07),transparent 60%)}
+.hero-inner{position:relative;z-index:2;max-width:840px}
+.hero .eyebrow{background:rgba(246,190,44,.15);border-color:rgba(246,190,44,.3);color:var(--yellow)}
+.hero h1{color:#fff;font-size:clamp(30px,4.6vw,54px);margin-bottom:20px}
+.hero h1 .accent{color:var(--yellow)}
+.hero p{font-size:clamp(16px,2vw,19.5px);color:#CBD3F0;max-width:660px;margin-bottom:36px}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap}
+.hero-badges{display:flex;gap:12px;flex-wrap:wrap;margin-top:40px}
+.hero-badge{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:13px;padding:11px 17px;font-size:13.5px;color:#DEE4F8;font-weight:600}
+.hero-badge b{color:var(--yellow)}
+
+/* ---------- SERVICES ---------- */
+.services{background:var(--bg-soft)}
+.svc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:22px}
+.svc{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:28px;display:flex;flex-direction:column}
+.svc .svc-ic{width:50px;height:50px;border-radius:15px;background:var(--yellow-soft);color:var(--navy);display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+.svc .svc-ic .ico{width:24px;height:24px}
+.svc h3{font-size:17px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:8px}
+.svc .svc-desc{font-size:14.5px;color:var(--text-soft);margin-bottom:16px}
+.svc ul{list-style:none;flex:1}
+.svc li{font-size:14.5px;color:var(--text);padding:5px 0 5px 26px;position:relative;font-weight:600}
+.svc li::before{content:"";position:absolute;left:2px;top:13px;width:14px;height:8px;border-left:2.5px solid var(--yellow-deep);border-bottom:2.5px solid var(--yellow-deep);transform:rotate(-45deg) translateY(-50%)}
+
+/* ---------- CONSULT CTA ---------- */
+.consult{background:linear-gradient(140deg,var(--navy-dark),var(--navy))}
+.consult-box{display:grid;grid-template-columns:1.25fr .75fr;gap:46px;align-items:center;color:#fff}
+@media(max-width:880px){.consult-box{grid-template-columns:1fr}}
+.consult h2{color:#fff}
+.consult p{color:#CBD3F0;font-size:16px;margin-bottom:16px}
+.consult-price{background:rgba(255,255,255,.07);border:1.5px solid rgba(246,190,44,.45);border-radius:20px;padding:30px;text-align:center}
+.consult-price .cp-label{font-size:13px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--yellow);margin-bottom:10px}
+.consult-price .cp-sum{font-size:42px;font-weight:900;color:#fff;line-height:1}
+.consult-price .cp-sub{font-size:14px;color:#CBD3F0;margin:8px 0 22px}
+.consult-price .btn{width:100%}
+
+/* ---------- STEPS ---------- */
+.steps{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:20px}
+.step{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px;box-shadow:var(--shadow)}
+.step .num{display:inline-flex;align-items:center;gap:10px;margin-bottom:14px}
+.step .num i{width:40px;height:40px;border-radius:12px;background:var(--navy);color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center;font-style:normal;font-size:17px;flex-shrink:0}
+.step:nth-child(even) .num i{background:var(--yellow);color:var(--navy-dark)}
+.step .num span{font-size:12px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;color:var(--text-soft)}
+.step h3{font-size:17px;margin-bottom:8px}
+.step p{font-size:14.5px;color:var(--text-soft)}
+.steps-motto{margin-top:30px;text-align:center;font-size:18px;font-weight:800;color:var(--navy)}
+.steps-motto span{color:var(--yellow-deep)}
+
+/* ---------- WHY ---------- */
+.why{background:var(--bg-soft)}
+.why-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:20px}
+.why-item{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px;box-shadow:var(--shadow)}
+.why-item .ic{width:48px;height:48px;border-radius:14px;background:var(--navy);color:var(--yellow);display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.why-item h3{font-size:15.5px;letter-spacing:.05em;text-transform:uppercase;margin-bottom:8px}
+.why-item p{font-size:14.5px;color:var(--text-soft)}
+
+/* ---------- TEAM ---------- */
+.team-card{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:36px;display:grid;grid-template-columns:150px 1fr;gap:32px;align-items:center;max-width:860px}
+@media(max-width:640px){.team-card{grid-template-columns:1fr;text-align:center;justify-items:center}}
+.team-photo{width:150px;height:150px;border-radius:50%;background:linear-gradient(140deg,var(--navy),var(--navy-soft));color:var(--yellow);display:flex;align-items:center;justify-content:center;font-size:52px;font-weight:900;border:5px solid var(--yellow-soft)}
+.team-card h3{font-size:22px;margin-bottom:2px}
+.team-card .role{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--yellow-deep);margin-bottom:12px}
+.team-card p{font-size:15px;color:var(--text-soft)}
+
+/* ---------- REVIEWS ---------- */
+.reviews{background:var(--bg-soft)}
+.rev-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.rev{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:26px;display:flex;flex-direction:column}
+.rev .stars{color:var(--yellow);font-size:17px;letter-spacing:2px;margin-bottom:12px}
+.rev p{font-size:14.5px;color:var(--text-soft);flex:1}
+.rev .who{margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);font-weight:800;color:var(--navy);font-size:14px}
+.rev .who span{display:block;font-weight:600;font-size:12.5px;color:var(--text-soft)}
+
+/* ---------- FAQ ---------- */
+.faq-cols{display:grid;grid-template-columns:1fr 1fr;gap:14px 24px;align-items:start}
+@media(max-width:860px){.faq-cols{grid-template-columns:1fr}}
+details.faq{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+details.faq summary{list-style:none;cursor:pointer;padding:17px 48px 17px 20px;font-weight:800;color:var(--navy);font-size:15px;position:relative}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq summary::after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);font-size:23px;color:var(--yellow-deep);font-weight:700;transition:.2s}
+details.faq[open] summary::after{transform:translateY(-50%) rotate(45deg)}
+details.faq .faq-a{padding:0 20px 18px;font-size:14.5px;color:var(--text-soft)}
+
+/* ---------- BOOKING ---------- */
+.booking{background:var(--bg-soft)}
+.booking-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
+@media(max-width:880px){.booking-grid{grid-template-columns:1fr}}
+.booking-text p{color:var(--text-soft);font-size:15.5px;margin-bottom:16px}
+.price-rows{display:grid;gap:14px;margin-top:24px}
+.price-row{background:#fff;border:1.5px solid var(--line);border-radius:15px;padding:18px 22px;display:flex;justify-content:space-between;align-items:center;gap:14px}
+.price-row.hot{border-color:var(--yellow)}
+.price-row .pr-name{font-weight:800;color:var(--navy);font-size:15.5px}
+.price-row .pr-name span{display:block;font-weight:600;font-size:12.5px;color:var(--text-soft)}
+.price-row .pr-sum{font-weight:900;color:var(--navy);font-size:21px;white-space:nowrap}
+.cform{background:#fff;border:1px solid var(--line);border-radius:20px;padding:30px;box-shadow:var(--shadow)}
+.cform h3{font-size:19px;margin-bottom:18px}
+.cform label{display:block;font-size:13px;font-weight:800;color:var(--navy);margin:14px 0 6px}
+.cform input,.cform select,.cform textarea{width:100%;font-family:inherit;font-size:15px;border:2px solid var(--line);border-radius:12px;padding:12px 14px;color:var(--text);background:#fff}
+.cform input:focus,.cform select:focus,.cform textarea:focus{outline:none;border-color:var(--yellow)}
+.cform .btn{width:100%;margin-top:20px}
+.cform .form-note{font-size:12.5px;color:var(--text-soft);margin-top:12px;text-align:center}
+
+/* ---------- CONTACTS ---------- */
+.contact{background:linear-gradient(140deg,var(--navy-dark),var(--navy));color:#fff}
+.contact h2{color:#fff}
+.contact .section-lead{color:#CBD3F0}
+.contact-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;max-width:900px}
+.contact-item{display:flex;align-items:center;gap:15px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:15px;padding:17px 20px;color:#fff}
+.contact-item:hover{background:rgba(255,255,255,.12)}
+.contact-item .ci{width:44px;height:44px;border-radius:13px;background:var(--yellow);color:var(--navy-dark);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.contact-item .cl{font-size:11.5px;color:#AEB9E2;text-transform:uppercase;letter-spacing:.08em;font-weight:800}
+.contact-item .cv{font-weight:800;font-size:15.5px;color:#fff}
+
+/* ---------- FOOTER ---------- */
+footer{background:var(--navy-dark);color:#8E9AC6;padding:42px 0;font-size:13px}
+.footer-inner{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
+.footer-disclaimer{margin-top:22px;padding-top:20px;border-top:1px solid rgba(255,255,255,.09);font-size:12px;line-height:1.7;max-width:900px}
+@media(max-width:640px){
+  section{padding:56px 0}
+}
+</style>
+</head>
+<body>
+
+<!-- ================= SVG ICONS ================= -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="i-id-card" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><circle cx="8.5" cy="11" r="2.5"/><path d="M5 18c.6-2 2-3 3.5-3s2.9 1 3.5 3"/><path d="M15 9h5"/><path d="M15 13h5"/></symbol>
+  <symbol id="i-laptop" viewBox="0 0 24 24"><path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16"/></symbol>
+  <symbol id="i-swap" viewBox="0 0 24 24"><path d="M8 3 4 7l4 4"/><path d="M4 7h16"/><path d="m16 21 4-4-4-4"/><path d="M20 17H4"/></symbol>
+  <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/></symbol>
+  <symbol id="i-file-check" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="m9 15 2 2 4-4"/></symbol>
+  <symbol id="i-chat-q" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.8.33-1 .7-1 1.7"/><path d="M12 17h.01"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 2 9 5-9 5-9-5z"/><path d="m3 12 9 5 9-5"/><path d="m3 17 9 5 9-5"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></symbol>
+  <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M12 19h4.5a3.5 3.5 0 0 0 0-7h-9a3.5 3.5 0 0 1 0-7H12"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22z"/></symbol>
+  <symbol id="i-map" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-11 11"/><path d="M22 2 15 22l-4-9-9-4z"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.51"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+</svg>
+
+<!-- ================= NAV ================= -->
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="#top" aria-label="relocate4ua">
+      <svg viewBox="0 0 126 104" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M24 96V54L62 22l30 26" fill="none" stroke="#22307E" stroke-width="12" stroke-linecap="square"/>
+        <rect x="46" y="64" width="14" height="32" fill="#22307E"/>
+        <path d="M12 99q48-4 84-48" fill="none" stroke="#F6BE2C" stroke-width="12" stroke-linecap="round"/>
+        <path d="M83 36l32-14-7 35z" fill="#F6BE2C"/>
+      </svg>
+      <span class="brand-name"><span class="w1">relocate</span><span class="n4">4</span><span class="w2">ua</span></span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="#services">Послуги</a>
+      <a href="#steps">Як ми працюємо</a>
+      <a href="#team">Команда</a>
+      <a href="#reviews">Відгуки</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Контакти</a>
+    </div>
+    <a href="#booking" class="btn btn-primary">Консультація</a>
+    <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- ================= 1. HERO ================= -->
+<header class="hero" id="top">
+  <div class="container hero-inner">
+    <span class="eyebrow">Переїзд · Легалізація · Іспанія</span>
+    <h1>relocate4ua — ваш партнер у переїзді та <span class="accent">легалізації в Іспанії</span></h1>
+    <p>Ми допомагаємо українцям легально жити, працювати та будувати нове життя в Іспанії.</p>
+    <div class="hero-btns">
+      <a href="#booking" class="btn btn-primary">Отримати консультацію</a>
+      <a href="#services" class="btn btn-ghost-white">Наші послуги</a>
+    </div>
+    <div class="hero-badges">
+      <div class="hero-badge"><b>Один запит</b> — одна команда</div>
+      <div class="hero-badge">Працюємо <b>дистанційно</b> по всій Іспанії</div>
+      <div class="hero-badge">Супровід <b>UA · EN · ES</b></div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= 2. SERVICES ================= -->
+<section class="services" id="services">
+  <div class="container">
+    <span class="eyebrow">Наші послуги</span>
+    <h2>Що ми робимо</h2>
+    <p class="section-lead">В одному місці закриваємо всі питання, пов'язані з переїздом, легалізацією та життям в Іспанії.</p>
+    <div class="svc-grid">
+
+      <div class="svc">
+        <div class="svc-ic"><svg class="ico"><use href="#i-id-card"/></svg></div>
+        <h3>ВНЖ та легалізація</h3>
+        <div class="svc-desc">Допомагаємо визначити оптимальний шлях легалізації та супроводжуємо на всіх необхідних етапах.</div>
+        <ul>
+          <li>Оформлення тимчасового захисту</li>
+          <li>Оформлення NIE</li>
+          <li>Оформлення та оновлення TIE</li>
+          <li>Larga Duración</li>
+          <li>Arraigo</li>
+          <li>Familiar de Español</li>
+          <li>Інші типи ВНЖ</li>
+        </ul>
+      </div>
+
+      <div class="svc">
+        <div class="svc-ic"><svg class="ico"><use href="#i-laptop"/></svg></div>
+        <h3>Digital Nomad</h3>
+        <div class="svc-desc">Супровід оформлення ВНЖ для спеціалістів, які працюють дистанційно на іноземні компанії або клієнтів.</div>
+        <ul>
+          <li>Аналіз кейсу</li>
+          <li>Підготовка документів</li>
+          <li>Повний супровід процесу</li>
+          <li>Оформлення членів сім'ї</li>
+        </ul>
+      </div>
+
+      <div class="svc">
+        <div class="svc-ic"><svg class="ico"><use href="#i-swap"/></svg></div>
+        <h3>Модифікація тимчасового захисту</h3>
+        <div class="svc-desc">Допомагаємо перейти з тимчасового захисту на інші доступні типи дозволів на проживання в Іспанії.</div>
+        <ul>
+          <li>Cuenta Ajena</li>
+          <li>Cuenta Propia</li>
+          <li>Модифікація для дітей</li>
+          <li>Інші доступні підстави</li>
+        </ul>
+      </div>
+
+      <div class="svc">
+        <div class="svc-ic"><svg class="ico"><use href="#i-briefcase"/></svg></div>
+        <h3>Autónomo та бізнес</h3>
+        <div class="svc-desc">Допомагаємо розпочати та вести підприємницьку діяльність в Іспанії.</div>
+        <ul>
+          <li>Відкриття autónomo</li>
+          <li>Бухгалтерське ведення autónomo</li>
+          <li>Податковий супровід</li>
+        </ul>
+      </div>
+
+      <div class="svc">
+        <div class="svc-ic"><svg class="ico"><use href="#i-file-check"/></svg></div>
+        <h3>Документи та переклади</h3>
+        <div class="svc-desc">Допомагаємо підготувати документи для використання в Іспанії.</div>
+        <ul>
+          <li>Консульські переклади</li>
+          <li>Присяжні переклади</li>
+          <li>Апостилювання документів</li>
+          <li>Отримання довідок</li>
+          <li>Омологація дипломів</li>
+          <li>Підготовка та оформлення документів</li>
+        </ul>
+      </div>
+
+      <div class="svc">
+        <div class="svc-ic"><svg class="ico"><use href="#i-chat-q"/></svg></div>
+        <h3>Консультації</h3>
+        <div class="svc-desc">Розбираємо вашу ситуацію та даємо зрозумілий план дій.</div>
+        <ul>
+          <li>Міграційні консультації</li>
+          <li>Податкові консультації</li>
+          <li>Стратегія переїзду та легалізації</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= 3. CONSULT CTA ================= -->
+<section class="consult" id="consult">
+  <div class="container consult-box">
+    <div>
+      <span class="eyebrow">Не знаєте, з чого почати?</span>
+      <h2>Почніть із консультації</h2>
+      <p>Кожна ситуація з переїздом та легалізацією в Іспанії індивідуальна.</p>
+      <p>На консультації ми розберемо вашу ситуацію та пояснимо, які варіанти легалізації вам доступні, чим вони відрізняються і який із них найкраще відповідає вашим цілям. Обговоримо, що вже можна зробити, а до чого ще потрібно підготуватися.</p>
+      <p>У результаті ви матимете зрозумілий план: які документи зібрати, у якій послідовності діяти та на що звернути увагу, щоб уникнути зайвих витрат і затримок.</p>
+    </div>
+    <div class="consult-price">
+      <div class="cp-label">Міграційна консультація</div>
+      <div class="cp-sum">90 €</div>
+      <div class="cp-sub">до 50 хвилин</div>
+      <a href="#booking" class="btn btn-primary">Розібрати мій кейс</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 4. STEPS ================= -->
+<section id="steps">
+  <div class="container">
+    <span class="eyebrow">Як проходить супровід</span>
+    <h2>Шість кроків до результату</h2>
+    <div class="steps">
+      <div class="step"><div class="num"><i>1</i><span>Крок 1</span></div><h3>Знайомимося та аналізуємо вашу ситуацію</h3><p>Знайомимося з вашим запитом, аналізуємо вихідну ситуацію, цілі та можливі варіанти вирішення. Визначаємо, яка стратегія може бути оптимальною саме для вашого випадку.</p></div>
+      <div class="step"><div class="num"><i>2</i><span>Крок 2</span></div><h3>Проводимо консультацію</h3><p>Детально розбираємо вашу ситуацію, відповідаємо на запитання та пояснюємо можливі шляхи вирішення. Після консультації у вас є чітке розуміння, що робити та з чого почати.</p></div>
+      <div class="step"><div class="num"><i>3</i><span>Крок 3</span></div><h3>Формуємо план дій</h3><p>Складаємо покроковий план роботи: визначаємо необхідні етапи, строки та завдання. Одразу фіксуємо, що бере на себе команда relocate4ua, а що необхідно буде від вас.</p></div>
+      <div class="step"><div class="num"><i>4</i><span>Крок 4</span></div><h3>Беремо ваше питання в роботу</h3><p>Підключаємо необхідних спеціалістів нашої команди та реалізовуємо погоджений план у межах обраної послуги. Ви отримуєте супровід і комунікацію з командою протягом усього процесу.</p></div>
+      <div class="step"><div class="num"><i>5</i><span>Крок 5</span></div><h3>Контролюємо процес</h3><p>Стежимо за виконанням усіх етапів та своєчасно інформуємо вас про статус. Ви завжди розумієте, що вже зроблено, на якому ми етапі та що буде далі.</p></div>
+      <div class="step"><div class="num"><i>6</i><span>Крок 6</span></div><h3>Доводимо до результату</h3><p>Супроводжуємо ваше питання до завершення погодженого обсягу роботи та пояснюємо подальші дії, якщо вони необхідні.</p></div>
+    </div>
+    <div class="steps-motto">Один запит — <span>одна команда</span> — супровід на кожному етапі.</div>
+  </div>
+</section>
+
+<!-- ================= 5. WHY ================= -->
+<section class="why" id="why">
+  <div class="container">
+    <span class="eyebrow">Переваги</span>
+    <h2>Чому обирають relocate4ua</h2>
+    <div class="why-grid">
+      <div class="why-item"><div class="ic"><svg class="ico"><use href="#i-layers"/></svg></div><h3>Комплексний підхід</h3><p>В одному місці закриваємо різні питання, пов'язані з переїздом, легалізацією, документами та веденням справ в Іспанії.</p></div>
+      <div class="why-item"><div class="ic"><svg class="ico"><use href="#i-users"/></svg></div><h3>Команда профільних спеціалістів</h3><p>Над кожним питанням працює спеціаліст відповідного напрямку — міграція, податки, бухгалтерія, переклади та адміністративні процеси.</p></div>
+      <div class="why-item"><div class="ic"><svg class="ico"><use href="#i-target"/></svg></div><h3>Індивідуальна стратегія</h3><p>Не працюємо за одним шаблоном для всіх. Аналізуємо вашу ситуацію, цілі та підбираємо рішення саме під ваш кейс.</p></div>
+      <div class="why-item"><div class="ic"><svg class="ico"><use href="#i-route"/></svg></div><h3>Супровід на кожному етапі</h3><p>Ви не залишаєтесь сам на сам із процесом. Ми пояснюємо, координуємо та тримаємо вас у курсі протягом усієї роботи.</p></div>
+      <div class="why-item"><div class="ic"><svg class="ico"><use href="#i-chat"/></svg></div><h3>Зрозуміла комунікація</h3><p>Пояснюємо складні процеси простою мовою. Ви завжди знаєте, що відбувається зараз і які наступні кроки.</p></div>
+      <div class="why-item"><div class="ic"><svg class="ico"><use href="#i-map"/></svg></div><h3>Практичний досвід в Іспанії</h3><p>Щодня працюємо з реальними кейсами та знаємо процеси не лише в теорії, а й на практиці.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 6. TEAM ================= -->
+<section id="team">
+  <div class="container">
+    <span class="eyebrow">Наша команда</span>
+    <h2>Хто супроводжує ваш кейс</h2>
+    <p class="section-lead">Міграція, податки, бухгалтерія, переклади й адміністративні процеси — за кожним напрямком закріплений профільний спеціаліст.</p>
+    <div class="team-card">
+      <!-- TODO: замінити на фото Надін: <img class="team-photo" src="nadin.jpg" alt="Надін" style="object-fit:cover"> -->
+      <div class="team-photo">Н</div>
+      <div>
+        <h3>Надін</h3>
+        <div class="role">Операційна директорка та партнерка relocate4ua</div>
+        <p>Понад 4 роки досвіду у сфері супроводу міграційних та адміністративних процесів в Іспанії. Координує роботу команди та супровід клієнтів, допомагає структурувати кейси, вибудовувати алгоритм дій і контролює процес на всіх етапах — від першого звернення до завершення роботи.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 7. REVIEWS ================= -->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <span class="eyebrow">Відгуки клієнтів</span>
+    <h2>Нам довіряють найважливіше</h2>
+    <p class="section-lead">Свій переїзд та легалізацію в Іспанії.</p>
+    <!-- TODO: замінити на реальні відгуки / скріншоти повідомлень -->
+    <div class="rev-grid">
+      <div class="rev"><div class="stars">★★★★★</div><p>Дуже дякую за допомогу з документами! Все пояснили простою мовою, супроводжували на кожному кроці. Рекомендую всім, хто розгублений у іспанській бюрократії.</p><div class="who">Клієнтка relocate4ua<span>супровід легалізації</span></div></div>
+      <div class="rev"><div class="stars">★★★★★</div><p>Зверталися щодо Digital Nomad для всієї сім'ї. Команда зібрала документи, подала заяву і тримала в курсі весь процес. Все вийшло!</p><div class="who">Клієнт relocate4ua<span>Digital Nomad</span></div></div>
+      <div class="rev"><div class="stars">★★★★★</div><p>Допомогли відкрити autónomo і взяли на себе бухгалтерію. Нарешті можу спокійно працювати, а не розбиратися в податках.</p><div class="who">Клієнтка relocate4ua<span>autónomo та бухгалтерія</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 8. FAQ ================= -->
+<section id="faq">
+  <div class="container">
+    <span class="eyebrow">FAQ</span>
+    <h2>Часті запитання</h2>
+    <div class="faq-cols" id="faqList"></div>
+  </div>
+</section>
+
+<!-- ================= 9. BOOKING ================= -->
+<section class="booking" id="booking">
+  <div class="container">
+    <span class="eyebrow">Запис на консультацію</span>
+    <h2>Не знаєте, з чого почати? Почніть із консультації</h2>
+    <div class="booking-grid">
+      <div class="booking-text">
+        <p>Розберемо вашу ситуацію, відповімо на запитання та визначимо оптимальну стратегію подальших дій.</p>
+        <p>Перед консультацією ми попросимо вас коротко описати свій кейс та надіслати основні запитання, щоб команда могла заздалегідь ознайомитися з вашою ситуацією та максимально ефективно використати час зустрічі.</p>
+        <div class="price-rows">
+          <div class="price-row hot"><div class="pr-name">Міграційна консультація<span>до 50 хвилин</span></div><div class="pr-sum">90 €</div></div>
+          <div class="price-row"><div class="pr-name">Податкова консультація<span>до 1,5 години</span></div><div class="pr-sum">120 €</div></div>
+        </div>
+      </div>
+      <form class="cform" id="leadForm">
+        <h3>Записатися на консультацію</h3>
+        <label for="fName">Ваше ім'я</label>
+        <input id="fName" type="text" placeholder="Ім'я" required>
+        <label for="fPhone">Телефон або нік у Telegram</label>
+        <input id="fPhone" type="text" placeholder="+34 … або @nickname" required>
+        <label for="fType">Тип консультації</label>
+        <select id="fType">
+          <option>Міграційна консультація (90 €)</option>
+          <option>Податкова консультація (120 €)</option>
+          <option>Ще не знаю — підкажіть</option>
+        </select>
+        <label for="fMsg">Коротко опишіть свій кейс</label>
+        <textarea id="fMsg" rows="4" placeholder="Ваш статус, скільки ви в Іспанії, основні запитання…"></textarea>
+        <button type="submit" class="btn btn-primary">Записатися на консультацію</button>
+        <div class="form-note" id="formNote">Кнопка скопіює текст заявки та відкриє наш Telegram — просто вставте його в чат. Або <a href="#" id="mailFallback"><u>надішліть заявку на пошту</u></a>.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 10. CONTACTS ================= -->
+<section class="contact" id="contact">
+  <div class="container">
+    <span class="eyebrow" style="background:rgba(246,190,44,.15);border-color:rgba(246,190,44,.3);color:var(--yellow)">Контакти</span>
+    <h2>Зв'яжіться з нами</h2>
+    <p class="section-lead">Напишіть нам у зручний месенджер — відповімо протягом робочого дня.</p>
+    <div class="contact-list">
+      <a class="contact-item" data-contact="telegram" href="#" target="_blank" rel="noopener"><span class="ci"><svg class="ico"><use href="#i-send"/></svg></span><span><span class="cl">Telegram</span><br><span class="cv" data-contact-text="telegramLabel"></span></span></a>
+      <a class="contact-item" data-contact="instagram" href="#" target="_blank" rel="noopener"><span class="ci"><svg class="ico"><use href="#i-insta"/></svg></span><span><span class="cl">Instagram</span><br><span class="cv" data-contact-text="instagramLabel"></span></span></a>
+      <a class="contact-item" data-contact="email" href="#"><span class="ci"><svg class="ico"><use href="#i-mail"/></svg></span><span><span class="cl">Email</span><br><span class="cv" data-contact-text="email"></span></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div>© <span id="year"></span> relocate4ua. Переїзд та легалізація в Іспанії.</div>
+      <div><a href="#top" style="color:#8E9AC6">Нагору ↑</a></div>
+    </div>
+    <div class="footer-disclaimer">Матеріали сайту мають інформаційний характер і не є юридичною консультацією. Законодавство, суми зборів, строки дії дозволів і практика офісів Extranjería змінюються — актуальність вимог перевіряється індивідуально на день подачі. relocate4ua не може гарантувати рішення державних органів.</div>
+  </div>
+</footer>
+
+<script>
+/* ======================================================
+   КОНТАКТИ (ті самі, що на welcomevdoma)
+   ====================================================== */
+const CONTACTS = {
+  telegram: "nadin_relocate",
+  telegramLabel: "@nadin_relocate",
+  instagram: "welcome_vdoma",
+  instagramLabel: "@welcome_vdoma",
+  email: "welcomevdoma@gmail.com"
+};
+const hrefs = {
+  telegram: "https://t.me/" + CONTACTS.telegram,
+  instagram: "https://instagram.com/" + CONTACTS.instagram,
+  email: "mailto:" + CONTACTS.email
+};
+document.querySelectorAll("[data-contact-text]").forEach(el=>{ el.textContent = CONTACTS[el.dataset.contactText] || ""; });
+document.querySelectorAll("[data-contact]").forEach(a=>{ a.href = hrefs[a.dataset.contact]; });
+document.getElementById("year").textContent = new Date().getFullYear();
+
+/* ---------- бургер ---------- */
+const burger=document.getElementById("burger"), navLinks=document.getElementById("navLinks");
+burger.addEventListener("click",()=>navLinks.classList.toggle("open"));
+navLinks.addEventListener("click",e=>{ if(e.target.tagName==="A") navLinks.classList.remove("open"); });
+
+/* ---------- форма → Telegram ---------- */
+function leadText(){
+  return `Вітаю! Запис на консультацію з сайту relocate4ua:\n\nІм'я: ${document.getElementById("fName").value}\nКонтакт: ${document.getElementById("fPhone").value}\nТип: ${document.getElementById("fType").value}\nКейс: ${document.getElementById("fMsg").value||"—"}`;
+}
+document.getElementById("leadForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const note=document.getElementById("formNote");
+  const openTg=()=>window.open("https://t.me/"+CONTACTS.telegram,"_blank");
+  navigator.clipboard.writeText(leadText()).then(()=>{
+    note.innerHTML="✅ Текст заявки скопійовано — вставте його в чат Telegram, який зараз відкриється.";
+    setTimeout(openTg,600);
+  }).catch(openTg);
+});
+document.getElementById("mailFallback").addEventListener("click",e=>{
+  e.preventDefault();
+  location.href="mailto:"+CONTACTS.email+"?subject="+encodeURIComponent("Запис на консультацію — relocate4ua")+"&body="+encodeURIComponent(leadText());
+});
+
+/* ======================================================
+   FAQ
+   ====================================================== */
+const FAQ = [
+["Я не знаю, яка послуга або тип ВНЖ мені потрібні. З чого почати?","Почніть із консультації. Ми проаналізуємо вашу ситуацію, цілі та документи, визначимо можливі варіанти та сформуємо оптимальну стратегію подальших дій."],
+["Чи можна звернутися до вас, якщо я ще не переїхав/ла до Іспанії?","Так. Частину питань краще вирішити ще до переїзду, щоб заздалегідь підготувати необхідні документи та правильно спланувати наступні кроки."],
+["Ви працюєте тільки з українцями?","Ні. relocate4ua спеціалізується на роботі з українцями, але ми також супроводжуємо клієнтів інших національностей."],
+["Чи можна отримати всі необхідні послуги в одному місці?","Так. Наша команда працює з питаннями легалізації, Digital Nomad, модифікації тимчасового захисту, autónomo, податків, бухгалтерії, перекладів, апостилювання, омологації та інших документальних процесів."],
+["Чи працюєте ви з клієнтами по всій Іспанії?","Так. Більшість наших послуг можна отримати дистанційно незалежно від міста проживання."],
+["Скільки часу займає оформлення документів або отримання ВНЖ?","Строки залежать від конкретної процедури, вашої ситуації, готовності документів та строків розгляду відповідними органами. Орієнтовні строки ми обговорюємо перед початком роботи."],
+["Чи гарантуєте ви позитивний результат?","Ми не можемо гарантувати рішення державних органів. Наша задача — професійно проаналізувати ваш кейс, правильно організувати процес та максимально якісно підготувати все, що залежить від нашої команди."],
+["Чи можете ви допомогти, якщо я вже почав/ла процес самостійно?","Так. Ми можемо підключитися на окремому етапі, проаналізувати вашу ситуацію та визначити, яка допомога потрібна далі."],
+["Як розпочати роботу з relocate4ua?","Залиште заявку на сайті або зв'яжіться з нами. Ми ознайомимося з вашим запитом і підкажемо, з якого кроку краще почати."],
+["Якою мовою проходять консультації?","Консультації та супровід доступні українською, англійською та іспанською мовами."]
+];
+document.getElementById("faqList").innerHTML = FAQ.map(([q,a])=>
+  `<details class="faq"><summary>${q}</summary><div class="faq-a">${a}</div></details>`).join("");
+</script>
+</body>
+</html>
