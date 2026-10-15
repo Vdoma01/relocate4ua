@@ -135,7 +135,7 @@ h2{font-size:clamp(27px,3.4vw,40px);margin-bottom:14px}
 /* ---------- TEAM ---------- */
 .team-card{background:#fff;border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:36px;display:grid;grid-template-columns:150px 1fr;gap:32px;align-items:center;max-width:860px}
 @media(max-width:640px){.team-card{grid-template-columns:1fr;text-align:center;justify-items:center}}
-.team-photo{width:150px;height:150px;border-radius:50%;background:linear-gradient(140deg,var(--navy),var(--navy-soft));color:var(--yellow);display:flex;align-items:center;justify-content:center;font-size:52px;font-weight:900;border:5px solid var(--yellow-soft)}
+.team-photo{width:150px;height:150px;border-radius:50%;object-fit:cover;border:5px solid var(--yellow-soft);box-shadow:0 8px 24px rgba(34,48,126,.15)}
 .team-card h3{font-size:22px;margin-bottom:2px}
 .team-card .role{font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--yellow-deep);margin-bottom:12px}
 .team-card p{font-size:15px;color:var(--text-soft)}
@@ -408,8 +408,7 @@ footer{background:var(--navy-dark);color:#8E9AC6;padding:42px 0;font-size:13px}
     <h2>Хто супроводжує ваш кейс</h2>
     <p class="section-lead">Міграція, податки, бухгалтерія, переклади й адміністративні процеси — за кожним напрямком закріплений профільний спеціаліст.</p>
     <div class="team-card">
-      <!-- TODO: замінити на фото Надін: <img class="team-photo" src="nadin.jpg" alt="Надін" style="object-fit:cover"> -->
-      <div class="team-photo">Н</div>
+      <img class="team-photo" src="nadin.jpg" alt="Надін — операційна директорка relocate4ua">
       <div>
         <h3>Надін</h3>
         <div class="role">Операційна директорка та партнерка relocate4ua</div>
